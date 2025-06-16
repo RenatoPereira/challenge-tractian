@@ -11,7 +11,6 @@ import type { Route } from "./+types/root";
 
 import { Header } from "./components/header";
 
-import "./assets/styles/reset.module.scss";
 import s from "./assets/styles/app.module.scss";
 
 import { CompaniesApi } from "./libs/apis/companies.api";

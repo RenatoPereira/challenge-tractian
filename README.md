@@ -1,3 +1,7 @@
+# Tractian Challenge
+
+Please enter `https://challenge-tractian-umber.vercel.app/` for [view the project](https://challenge-tractian-umber.vercel.app/)
+
 # Welcome to React Router!
 
 A modern, production-ready template for building full-stack React applications using React Router.
@@ -33,6 +37,14 @@ npm run dev
 ```
 
 Your application will be available at `http://localhost:5173`.
+
+### Testing
+
+Start the development server with HMR:
+
+```bash
+npm run test
+```
 
 ## Building for Production
 
