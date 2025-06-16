@@ -1,0 +1,14 @@
+.nav {
+  align-items: center;
+  column-gap: var(--size-sm);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  font-size: var(--text-base);
+  height: var(--text-base);
+}

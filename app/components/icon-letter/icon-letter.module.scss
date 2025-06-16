@@ -1,0 +1,12 @@
+.letter {
+  align-items: center;
+  background-color: var(--color-blue-500);
+  border-radius: 100%;
+  color: var(--color-neutral);
+  display: flex;
+  font-size: var(--text-base);
+  height: var(--size-lg);
+  justify-content: center;
+  text-transform: uppercase;
+  width: var(--size-lg);
+}

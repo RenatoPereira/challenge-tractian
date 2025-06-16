@@ -1,0 +1,17 @@
+.link {
+  align-items: center;
+  background-color: var(--color-button);
+  border-radius: var(--size-sm);
+  color: var(--color-neutral);
+  column-gap: var(--size-sm);
+  display: flex;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--size-sm) var(--size-base);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--color-button-hover);
+  }
+}

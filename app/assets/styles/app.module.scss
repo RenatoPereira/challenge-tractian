@@ -1,0 +1,55 @@
+:root {
+  --color-button: #023b78;
+  --color-button-hover: #2188ff;
+  --color-header: #17192d;
+
+  --color-neutral: #ffffff;
+  --color-neutral-150: #e3eaef;
+  --color-neutral-600: #77818c;
+
+  --color-gray-500: #88929c;
+  --color-gray-950: #24292f;
+
+  --color-blue-50: #f2f8ff;
+  --color-blue-400: #55a6ff;
+  --color-blue-500: #2188ff;
+
+  --color-border: #d0d7de;
+  --color-border-card: #d8dfe6;
+
+  --color-success: #52c41a;
+  --color-danger: #ed3833;
+
+  --color-placeholder: #c1c9d2;
+  --color-input: #363c44;
+
+  --size-xs: 2px;
+  --size-xss: 3px;
+  --size-sm: 4px;
+  --size-base: 8px;
+  --size-md: 16px;
+  --size-lg: 24px;
+
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+
+  --family-inter: Inter;
+}
+
+html,
+body {
+  background-color: var(--color-neutral-150);
+  font-family: var(--family-inter);
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+.main {
+  background-color: var(--color-neutral-150);
+  padding: var(--size-base);
+}

@@ -8,7 +8,13 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
-import "./app.css";
+
+import { Header } from "./components/header";
+
+import "./assets/styles/reset.module.scss";
+import s from "./assets/styles/app.module.scss";
+
+import { CompaniesApi } from "./libs/apis/companies.api";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -32,8 +38,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
+
       <body>
-        {children}
+        <Header promise={CompaniesApi.getAll()} />
+
+        <main className={s.main}>{children}</main>
+
         <ScrollRestoration />
         <Scripts />
       </body>

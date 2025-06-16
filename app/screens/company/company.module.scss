@@ -1,0 +1,32 @@
+.screen {
+  background-color: var(--color-neutral);
+  border-radius: var(--size-sm);
+  border: 1px solid var(--color-border-card);
+  row-gap: calc(var(--size-base) + var(--size-sm));
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-md);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  align-items: stretch;
+  column-gap: var(--size-base);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.aside {
+  border: 1px solid var(--color-border);
+  border-radius: var(--size-sm);
+  max-width: 480px;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}

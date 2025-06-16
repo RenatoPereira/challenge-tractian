@@ -1,0 +1,8 @@
+.list {
+  color: var(--color-neutral-600);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--size-sm);
+  overflow: hidden;
+  padding: var(--size-sm) 0;
+}

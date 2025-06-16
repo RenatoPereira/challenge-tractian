@@ -1,0 +1,30 @@
+.operating {
+  .energy {
+    color: var(--color-success);
+  }
+
+  .circle {
+    background-color: var(--color-success);
+  }
+}
+
+.alert {
+  .energy {
+    color: var(--color-danger);
+  }
+
+  .circle {
+    background-color: var(--color-danger);
+  }
+}
+
+.circle {
+  border-radius: 100%;
+  display: block;
+  height: var(--size-base);
+  width: var(--size-base);
+}
+
+.energy {
+  font-size: var(--text-sm);
+}
